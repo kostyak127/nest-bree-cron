@@ -1,0 +1,14 @@
+node_modules
+dist
+
+*.log
+.env
+.env*
+*.env
+data*
+package-lock.json
+.idea
+docker-compose.yml
+token_*
+temp
+certs

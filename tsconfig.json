@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "lib": ["es2017", "dom"],
+    "types": ["lodash", "jest", "node"],
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "removeComments": true,
+    "noLib": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es6",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "paths": {
+      "@app/*": ["./*"]
+    }
+  },
+  "include": ["src/**/*", ".eslintrc.js"],
+  "exclude": ["node_modules"]
+}
