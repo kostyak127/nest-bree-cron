@@ -12,3 +12,4 @@ docker-compose.yml
 token_*
 temp
 certs
+yarn.lock
