@@ -11,7 +11,7 @@ import { BreeEventListener } from "../cron/services/bree-event-listener.service"
 })
 export class BreeCronModule {
   static forRoot(breeCronConfiguration: BreeOptions = {}): DynamicModule {
-    console.log(breeCronConfiguration);
+    console.log('bree cron started with config:', breeCronConfiguration);
     return {
       global: true,
       module: BreeCronModule,

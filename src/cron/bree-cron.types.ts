@@ -20,7 +20,7 @@ export type BreeOptions = {
     | undefined;
 };
 
-type JobOptions = {
+export type JobOptions = {
   name?: string | undefined;
   path?: string | (() => void) | undefined;
   timeout?: number | string | boolean | undefined;

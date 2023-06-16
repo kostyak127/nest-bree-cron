@@ -1,13 +1,13 @@
 {
   "compilerOptions": {
     "lib": ["es2017", "dom"],
-    "types": ["lodash", "jest", "node"],
+    "types": ["lodash", "node"],
     "module": "commonjs",
     "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "removeComments": true,
-    "noLib": false,
+    "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "emitDecoratorMetadata": true,
